@@ -5,7 +5,655 @@
             <meta name="description" content="Personal Website">
             <title>Mahmoud Ahmed</title>
             <link rel="stylesheet" href="Css/style.css">
-            <link rel="stylesheet" href="Css/all.min.css">        
+            <link rel="stylesheet" href="Css/all.min.css">  
+            <style>
+                /*start body*/
+                body
+                {
+                    margin: 0;
+                    padding: 0;
+                    height: 3550px
+                }
+                .container
+                {
+                    width: 1300px;
+                    margin: auto
+                }
+                /*end body*/
+                /*start header*/
+                .header
+                {
+                    height: 620px;
+                    background-image: url(../Tools/background.png);
+                    background-size: cover;
+                    margin-bottom: 0
+                }
+                .header1
+                {
+                    height: 120px
+                }
+
+                .header1 .logo img 
+                {
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 25px;
+                    float: left;
+                    margin-left: 30px;
+                }
+                .header1 .lists ul 
+                {
+                    list-style: none;
+                    float: right;
+                    overflow: hidden;
+                    display: inline-flex;
+                    margin-top: 37px;
+                }
+                .header1 .lists ul li
+                {
+                    color: #FFF;
+                    font-family: Tahoma;
+                    font-size: 27px;
+                    text-transform: uppercase;
+                    margin: 0 30px 20px 0;
+                    font-weight: bold
+                }
+                .header1 .lists ul li a
+                {
+                    color: #fff;
+                    text-decoration: none
+                }
+                .header1 .lists ul li a:hover
+                {
+                    border-bottom: 1px solid #FFF
+                }
+                .header1 .lists ul .line
+                {
+                    border-bottom: 1px solid #FFF
+                }
+                .header2 
+                {
+                    margin-top: 120px;
+                    margin-left: 30px;
+                }
+                .header2 button
+                {
+                    padding: 8px;
+                    color: #1b2024;
+                    background: none;
+                    background-color: #FFF;
+                    border: 1px solid #FFF;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                }
+                .header2 button:hover 
+                {
+                    background-color: #201d1d;
+                    color: #FFF;
+                }
+
+                .header2 h2
+                {
+                    color: #FFF;
+                    font-family: Tahoma;
+                    font-size: 45px;
+                    display: inline-block;
+                    margin-top: 15px;
+                    margin-bottom: 9px
+                }
+                .header2 p
+                {
+                    color: #FFF;
+                    font-family: Tahoma;
+                    font-size: 15px;
+                }
+                .header3
+                {
+                    margin-top: 100px;
+                    margin-left: 520px;
+                }
+                .header3 button
+                {
+                    width: 195px;
+                    height: 40px;
+                    padding: 5px;
+                    color: #1b2024;
+                    background: none;
+                    background-color: #FFF;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                    border: 1px solid #FFF;
+                    border-radius: 15px;
+                    transition: background-color, color 1.5s
+                }
+                .header3 button:hover
+                {
+                    background-color: #201d1d;
+                    color: #FFF;
+                }
+                .header3 img 
+                {
+                    width: 35px;
+                    height: 35px;
+                    margin-top: 14px;
+                    margin-left: 80px;
+                }
+
+                /*End Header*/ 
+                /*start About*/
+                .about 
+                {
+                    width: 1330px;
+                    height: 570px;
+                    margin-left: 68px
+                }
+                .about .image
+                {
+                    width: 430px;
+                    height: 530px;
+                    display: inline-block
+                }
+                .about hr
+                {
+                    display: inline-block;
+                    border: 1px solid #1b2024;
+                    height: 480px
+                }
+                .about .about2
+                {
+                    display: inline-block;
+                    float: right;
+                    width: 65%;
+                    margin-top: 3%;
+                }
+                .about .about2 h2
+                {
+                    color: #201d1d;
+                    font-family: Tahoma;
+                    font-size: 35px;
+                    display: inline;
+                }
+                .about .about2 p 
+                {
+                    display: inline-block;
+                    color: #1b2024;
+                    font-family: Tahoma;
+                    font-size: 22px;
+                    border: 1px solid #1b2024;
+                    padding: 8px
+                }
+                .about .about2 p:last-of-type
+                {
+                    border: 0;
+                    line-height: 1.6;
+                    font-size: 17px;
+                    margin-left: 20px;
+                    padding: 0
+                }
+                .about .about2 ul 
+                {
+                    margin-left: 18%
+                }
+                .about .about2 ul li
+                {
+                    list-style: none;
+                    display: inline-flex;
+                    margin: 0 10px 20px 0; 
+                    color: #1b2024
+                }
+                .about .about2 ul li  #f1:hover{color: #1c75bc}
+                .about .about2 ul li  #f2:hover{color: #29a7df}
+                .about .about2 ul li  #f3:hover{color: #cd332c}
+                .about .about2 ul li  #f4:hover{color: #cd332c}
+
+                .about .about2 .Skills
+                {
+                    display: inline-block
+                }
+                .about .about2 .Skills .skill1 h3
+                {
+                    color: #1b2024;
+                    font-family: Tahoma;
+                    font-size: 26px;
+                    display: inline;
+                    margin-top: 1.5%
+                }
+                .about .about2 .Skills .skill1 div img
+                {
+                    width: 70px;
+                    height: 70px;
+                    margin-left: 3.8%;
+                    margin-top: 1.5%;
+                    margin-left: 35px;
+                    margin-top: 10px
+                }
+                .about .about2 .Skills .skill2 h3
+                {
+                    color: #1b2024;
+                    font-family: Tahoma;
+                    font-size: 26px;
+                    display: inline;
+                    margin-top: 1.5%;
+                    margin-left: 70px;
+                }
+                .about .about2 .Skills .skill2 div img
+                {
+                    width: 70px;
+                    height: 70px;
+                    margin-left: 3.8%;
+                    margin-top: 1.5%;
+                    margin-left: 120px;
+                    margin-top: 10px
+                }
+                .about .about2 .Skills .skill3 h3
+                {
+                    color: #1b2024;
+                    font-family: Tahoma;
+                    font-size: 26px;
+                    display: inline;
+                    margin-top: 1.5%;
+                    margin-left: 60px;
+                }
+                .about .about2 .Skills .skill3 div img
+                {
+                    width: 70px;
+                    height: 70px;
+                    margin-left: 3.8%;
+                    margin-top: 1.5%;
+                    margin-left: 130px;
+                    margin-top: 10px
+                }
+                /*End About*/
+                /*Start Services*/
+                .services
+                {
+                    height: 600px;
+                    background-color: #f1f0f0;
+
+                }
+                .services h1
+                {
+                    font-family: Tahoma;
+                    font-size: 35px;
+                    text-transform: capitalize;
+                    margin-left: 40%;
+                    padding-top: 20px;
+                    color: #201d1d
+                }
+                .servicer .boxes
+                {
+                    display: inline-block
+                }
+                .services .boxes .service1
+                {
+                    width: 350px;
+                    height: 400px;
+                    margin-left: 20px;
+                    margin-right: 70px;
+                    display: inline-block;
+                    background-image:url(../Tools/1%20box.png) 
+                }
+                .services .boxes .service1 h2
+                {
+                    text-align: center;
+                    font-family: Tahoma;
+                    font-size: 28px;
+                    color: #FFF
+                }
+                .services .boxes .service1 ul li
+                {
+                    list-style: circle;
+                    color: #FFF;
+                    line-height: 2;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                }
+                .services .boxes .service1 ul li span
+                {
+                    border: 1px solid #FFF;
+                    padding: 4px;
+                    margin-left: 8px;
+                }
+                .services .boxes .service1 ul li span:hover
+                {
+                    background-color: #fff;
+                    color: #1b2024;    
+                    cursor: context-menu
+                }
+                .services .boxes .service1 hr:last-of-type
+                {
+                    width: 70%
+                }
+                .services .boxes .service1 button 
+                {
+                    padding: 8px;
+                    color: #1b2024;
+                    background: none;
+                    background-color: #FFF;
+                    border: 1px solid #FFF;
+                    border-radius: 5px;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                    margin-top: 15px;
+                    margin-left: 30%
+                }
+                .services .boxes .service1 button:hover
+                {
+                    background: #1b2024;
+                    color: #fff
+                }
+                .services .boxes .service2
+                {
+                    width: 350px;
+                    height: 400px;
+                    margin-left: 0px;
+                    display: inline-block;
+                    background-image:url(../Tools/2%20box.png)
+                }
+                .services .boxes .service2 h2
+                {
+                    text-align: center;
+                    font-family: Tahoma;
+                    font-size: 28px;
+                    color: #FFF
+                }
+                .services .boxes .service2 ul li
+                {
+                    list-style: circle;
+                    color: #FFF;
+                    line-height: 2;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                }
+                .services .boxes .service2 ul li span
+                {
+                    border: 1px solid #FFF;
+                    padding: 4px;
+                    margin-left: 8px;
+                }
+                .services .boxes .service2 ul li span:hover
+                {
+                    background-color: #fff;
+                    color: #1b2024;
+                    cursor: context-menu
+                }
+                .services .boxes .service2 hr:last-of-type
+                {
+                    width: 70%
+                }
+                .services .boxes .service2 button 
+                {
+                    padding: 8px;
+                    color: #1b2024;
+                    background: none;
+                    background-color: #FFF;
+                    border: 1px solid #FFF;
+                    border-radius: 5px;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                    margin-top: 15px;
+                    margin-left: 30%
+                }
+                .services .boxes .service2 button:hover
+                {
+                    background: #1b2024;
+                    color: #fff
+                }
+                .services .boxes .service3
+                {
+                    width: 350px;
+                    height: 400px;
+                    margin-left: 70px;
+                    display: inline-block;
+                    background-image:url(../Tools/3%20box.png)
+                }
+                .services .boxes .service3 h2
+                {
+                    text-align: center;
+                    font-family: Tahoma;
+                    font-size: 28px;
+                    color: #FFF
+                }
+                .services .boxes .service3 ul li
+                {
+                    list-style: circle;
+                    color: #FFF;
+                    line-height: 2;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                }
+                .services .boxes .service3 ul li span
+                {
+                    border: 1px solid #FFF;
+                    padding: 4px;
+                    margin-left: 8px;
+                }
+                .services .boxes .service3 ul li span:hover
+                {
+                    background-color: #fff;
+                    color: #1b2024;
+                    cursor: context-menu
+                }
+                .services .boxes .service3 hr:last-of-type
+                {
+                    width: 70%
+                }
+                .services .boxes .service3 button 
+                {
+                    padding: 8px;
+                    color: #1b2024;
+                    background: none;
+                    background-color: #FFF;
+                    border: 1px solid #FFF;
+                    border-radius: 5px;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                    margin-top: 15px;
+                    margin-left: 30%
+                }
+                .services .boxes .service3 button:hover
+                {
+                    background: #1b2024;
+                    color: #fff
+                }
+                .services p
+                {
+                    text-align: center;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    padding-top: 10px;
+                }
+                #smile
+                {
+                    color: #2c2c2c
+                }
+                /*End Services*/
+                /*Start Freelancer*/
+                .freelancer
+                {
+                    height: 380px;
+                    background-image: url(../Tools/freelancer.png);
+                    background-size: cover
+                }
+                .freelancer p
+                {
+                    text-align: center;
+                    margin-top: 0;
+                    margin-left: 0;
+                    padding-top: 8%;    
+                    padding-right: 7%;
+                    font-family: Tahoma;
+                    font-size: 45px;
+                    color: #FFF
+                }
+                .freelancer button
+                {
+                    width: 220px;
+                    height: 50px;
+                    padding: 8px;
+                    color: #1b2024;
+                    background: none;
+                    background-color: #FFF;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                    border: 1px solid #FFF;
+                    border-radius: 15px;
+                    margin-left: 39%;
+                    margin-bottom: 40px 
+                }
+                /*End Freelancer*/
+                /*Start Portfolio*/
+                .portfolio h1
+                {
+                    margin-top: 0;
+                    margin-bottom: 14px;
+                    padding-left: 41%;
+                    font-family: Myriad Pro;
+                    font-size: 42px;
+                    color: #352e2a
+                }
+                .portfolio ul
+                {
+                    margin-top: 0;
+                    margin-left: 33%;
+                    cursor: default
+                }
+                .portfolio ul li
+                {
+                    list-style: none;
+                    display: inline-flex;
+                    margin: 0 15px 10px 0;
+                    font-family: Myriad Pro;
+                    font-size: 22px   
+                }
+                .portfolio ul .line2
+                {
+                    background-color: #2a2523;
+                    color: #FFF;
+                    padding: 5px;
+                    border: 1px solid #fff;
+                    border-radius: 4px
+                }
+                .portfolio .images
+                {
+                    display: inline-block;
+                    padding: 5px;
+                    margin-left: 5px;
+                    margin-bottom: 5px
+                }
+                .prtfolio .images .img1 img
+                {
+                    padding-right: 5px
+                }
+                .prtfolio .images .img2 img
+                {
+                    margin-right: 5px
+                }
+                .prtfolio .images .img3 img
+                {
+                    padding-right: 5px
+                }
+                .portfolio button
+                {
+                    width: 220px;
+                    height: 50px;
+                    padding: 8px;
+                    color: #fff;
+                    background: none;
+                    background-color: #2a2523;
+                    font-family: Tahoma;
+                    font-size: 20px;
+                    border: 1px solid #FFF;
+                    border-radius: 15px;
+                    margin-left: 39%;
+                    margin-bottom: 40px 
+                }
+                /*end portfolio*/
+                /*start contact*/
+                .contact
+                {
+                    width: 1366px;
+                    height: 590px;
+                    background-image: url(../tools/Contact.png);
+                    background-size: cover;
+                    display: inline-block
+                }
+                .contact h1 
+                {
+                    color: #FFF;
+                    margin-left: 36%;
+                    font-family: Tahoma;
+                    text-transform: uppercase;
+                    font-size: 42px;
+                }
+                .contact .form 
+                {
+                    margin-left: 31%
+                }
+                .contact .form input
+                {
+                    padding: 10px;
+                    width: 380px;
+                    height: 30px;
+                    border: 0;
+                    border-radius: 10px;
+                    margin-bottom: 10px
+                }
+                .contact .form textarea
+                {
+                    width: 380px;
+                    height: 200px;
+                    border: 0;
+                    border-radius: 10px;
+                    padding: 10px
+                }
+                .contact .form input[type="submit"] 
+                {
+                    width: 280px;
+                    height: 40px;
+                    border: 0;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    margin-left: 60px;
+                    text-align: center;
+                    background-color: #FFF;
+                    color: #3d3d3d;
+                    font-family: Tahoma;
+                    font-size: 18px
+                }
+                .contact .form input[type="submit"]:hover
+                {
+                    background: #1b2024;
+                    color: #fff 
+                }
+                /*end contact*/
+                /*start footer*/
+                .footer
+                {
+                    width: 1366px;
+                    background-color: #c3c3c3;
+                    color: #3d3d3d;
+                    padding: 20px 0;
+                    display: inline;
+                }
+                .footer p
+                {
+                    font-family: Tahoma;
+                    margin-left: 35%;
+                    float: left
+                }
+                .footer p span
+                {
+                    font-family: Tahoma;
+                    float: 
+                }
+                .footer p  #f5 {color: red}
+                /*End footer*/
+
+
+
+            </style>
         </head>
         <body>
             <!--Start header-->
